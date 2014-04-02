@@ -2,8 +2,8 @@
  <author/>
  <comment/>
  <exportmacro/>
- <class>MathematicalWindow</class>
- <widget name="MathematicalWindow" class="QMainWindow">
+ <class>GrammaticalWindow_it</class>
+ <widget name="GrammaticalWindow_it" class="QMainWindow">
   <property name="geometry">
    <rect>
     <x>0</x>

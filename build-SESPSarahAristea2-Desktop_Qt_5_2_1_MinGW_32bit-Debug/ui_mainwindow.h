@@ -47,7 +47,7 @@ public:
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName(QStringLiteral("MainWindow"));
-        MainWindow->resize(400, 300);
+        MainWindow->resize(800, 600);
         actionInstructions = new QAction(MainWindow);
         actionInstructions->setObjectName(QStringLiteral("actionInstructions"));
         actionAbout = new QAction(MainWindow);
@@ -83,7 +83,7 @@ public:
         MainWindow->setStatusBar(statusBar);
         menuBar = new QMenuBar(MainWindow);
         menuBar->setObjectName(QStringLiteral("menuBar"));
-        menuBar->setGeometry(QRect(0, 0, 400, 21));
+        menuBar->setGeometry(QRect(0, 0, 800, 21));
         menuHow_to = new QMenu(menuBar);
         menuHow_to->setObjectName(QStringLiteral("menuHow_to"));
         MainWindow->setMenuBar(menuBar);

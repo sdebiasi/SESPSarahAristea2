@@ -36,7 +36,7 @@ public:
     {
         if (MathematicalWindow->objectName().isEmpty())
             MathematicalWindow->setObjectName(QStringLiteral("MathematicalWindow"));
-        MathematicalWindow->resize(443, 299);
+        MathematicalWindow->resize(800, 600);
         actionEquation = new QAction(MathematicalWindow);
         actionEquation->setObjectName(QStringLiteral("actionEquation"));
         actionPoint_s = new QAction(MathematicalWindow);
@@ -46,7 +46,7 @@ public:
         MathematicalWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MathematicalWindow);
         menubar->setObjectName(QStringLiteral("menubar"));
-        menubar->setGeometry(QRect(0, 0, 443, 21));
+        menubar->setGeometry(QRect(0, 0, 800, 21));
         menuInsert = new QMenu(menubar);
         menuInsert->setObjectName(QStringLiteral("menuInsert"));
         MathematicalWindow->setMenuBar(menubar);

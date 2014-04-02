@@ -15,12 +15,15 @@ TEMPLATE = app
 SOURCES += main.cpp\
         mainwindow.cpp \
     mathematicalwindow.cpp \
-    grammaticalwindow.cpp
+    grammaticalwindow_it.cpp \
+    grammaticalwindow_en.cpp
 
 HEADERS  += mainwindow.h \
     mathematicalwindow.h \
-    grammaticalwindow.h
+    grammaticalwindow_it.h \
+    grammaticalwindow_en.h
 
 FORMS    += mainwindow.ui \
     mathematicalwindow.ui \
-    grammaticalwindow.ui
+    grammaticalwindow_it.ui \
+    grammaticalwindow_en.ui
