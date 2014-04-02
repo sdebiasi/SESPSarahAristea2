@@ -19,6 +19,7 @@
 #include <QtWidgets/QMenuBar>
 #include <QtWidgets/QStatusBar>
 #include <QtWidgets/QWidget>
+#include "qcustomplot.h"
 
 QT_BEGIN_NAMESPACE
 
@@ -28,6 +29,7 @@ public:
     QAction *actionEquation;
     QAction *actionPoint_s;
     QWidget *centralwidget;
+    QCustomPlot *widget;
     QMenuBar *menubar;
     QMenu *menuInsert;
     QStatusBar *statusbar;
@@ -43,6 +45,9 @@ public:
         actionPoint_s->setObjectName(QStringLiteral("actionPoint_s"));
         centralwidget = new QWidget(MathematicalWindow);
         centralwidget->setObjectName(QStringLiteral("centralwidget"));
+        widget = new QCustomPlot(centralwidget);
+        widget->setObjectName(QStringLiteral("widget"));
+        widget->setGeometry(QRect(30, 30, 451, 291));
         MathematicalWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MathematicalWindow);
         menubar->setObjectName(QStringLiteral("menubar"));

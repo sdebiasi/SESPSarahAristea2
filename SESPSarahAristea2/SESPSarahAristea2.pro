@@ -6,7 +6,7 @@
 
 QT       += core gui
 
-greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
+greaterThan(QT_MAJOR_VERSION, 4): QT += widgets printsupport
 
 TARGET = SESPSarahAristea2
 TEMPLATE = app
@@ -16,12 +16,14 @@ SOURCES += main.cpp\
         mainwindow.cpp \
     mathematicalwindow.cpp \
     grammaticalwindow_it.cpp \
-    grammaticalwindow_en.cpp
+    grammaticalwindow_en.cpp \
+    qcustomplot.cpp
 
 HEADERS  += mainwindow.h \
     mathematicalwindow.h \
     grammaticalwindow_it.h \
-    grammaticalwindow_en.h
+    grammaticalwindow_en.h \
+    qcustomplot.h
 
 FORMS    += mainwindow.ui \
     mathematicalwindow.ui \

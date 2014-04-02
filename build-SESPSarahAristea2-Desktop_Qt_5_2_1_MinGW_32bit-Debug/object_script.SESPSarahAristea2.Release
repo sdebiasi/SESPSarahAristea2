@@ -1,0 +1,13 @@
+INPUT(
+./release\main.o
+./release\mainwindow.o
+./release\mathematicalwindow.o
+./release\grammaticalwindow_it.o
+./release\grammaticalwindow_en.o
+./release\qcustomplot.o
+./release\moc_mainwindow.o
+./release\moc_mathematicalwindow.o
+./release\moc_grammaticalwindow_it.o
+./release\moc_grammaticalwindow_en.o
+./release\moc_qcustomplot.o
+);

@@ -166,6 +166,7 @@ Makefile: ../SESPSarahAristea2/SESPSarahAristea2.pro ../../../../../../Qt/Qt5.2.
 		../../../../../../Qt/Qt5.2.1/5.2.1/mingw48_32/mkspecs/features/yacc.prf \
 		../../../../../../Qt/Qt5.2.1/5.2.1/mingw48_32/mkspecs/features/lex.prf \
 		../SESPSarahAristea2/SESPSarahAristea2.pro \
+		C:/Qt/Qt5.2.1/5.2.1/mingw48_32/lib/Qt5PrintSupport.prl \
 		C:/Qt/Qt5.2.1/5.2.1/mingw48_32/lib/Qt5Widgets.prl \
 		C:/Qt/Qt5.2.1/5.2.1/mingw48_32/lib/Qt5Gui.prl \
 		C:/Qt/Qt5.2.1/5.2.1/mingw48_32/lib/Qt5Core.prl
@@ -277,6 +278,7 @@ Makefile: ../SESPSarahAristea2/SESPSarahAristea2.pro ../../../../../../Qt/Qt5.2.
 ..\..\..\..\..\..\Qt\Qt5.2.1\5.2.1\mingw48_32\mkspecs\features\yacc.prf:
 ..\..\..\..\..\..\Qt\Qt5.2.1\5.2.1\mingw48_32\mkspecs\features\lex.prf:
 ..\SESPSarahAristea2\SESPSarahAristea2.pro:
+C:/Qt/Qt5.2.1/5.2.1/mingw48_32/lib/Qt5PrintSupport.prl:
 C:/Qt/Qt5.2.1/5.2.1/mingw48_32/lib/Qt5Widgets.prl:
 C:/Qt/Qt5.2.1/5.2.1/mingw48_32/lib/Qt5Gui.prl:
 C:/Qt/Qt5.2.1/5.2.1/mingw48_32/lib/Qt5Core.prl:
