@@ -103,7 +103,7 @@ public:
         MainWindow->setWindowTitle(QApplication::translate("MainWindow", "MainWindow", 0));
         actionInstructions->setText(QApplication::translate("MainWindow", "Instructions", 0));
         actionAbout->setText(QApplication::translate("MainWindow", "About", 0));
-        label->setText(QApplication::translate("MainWindow", "Name of the application l", 0));
+        label->setText(QApplication::translate("MainWindow", "Name of the application", 0));
         label_2->setText(QApplication::translate("MainWindow", "Catchy phrase", 0));
         pushButton->setText(QApplication::translate("MainWindow", "Mathematics", 0));
         pushButton_2->setText(QApplication::translate("MainWindow", "Grammatics", 0));
