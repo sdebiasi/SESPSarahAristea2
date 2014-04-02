@@ -13,8 +13,14 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    mathematicalwindow.cpp \
+    grammaticalwindow.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    mathematicalwindow.h \
+    grammaticalwindow.h
 
-FORMS    += mainwindow.ui
+FORMS    += mainwindow.ui \
+    mathematicalwindow.ui \
+    grammaticalwindow.ui
