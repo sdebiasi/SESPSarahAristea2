@@ -17,15 +17,21 @@ SOURCES += main.cpp\
     mathematicalwindow.cpp \
     grammaticalwindow_it.cpp \
     grammaticalwindow_en.cpp \
-    qcustomplot.cpp
+    qcustomplot.cpp \
+    instructionwindow.cpp \
+    aboutwindow.cpp
 
 HEADERS  += mainwindow.h \
     mathematicalwindow.h \
     grammaticalwindow_it.h \
     grammaticalwindow_en.h \
-    qcustomplot.h
+    qcustomplot.h \
+    instructionwindow.h \
+    aboutwindow.h
 
 FORMS    += mainwindow.ui \
     mathematicalwindow.ui \
     grammaticalwindow_it.ui \
-    grammaticalwindow_en.ui
+    grammaticalwindow_en.ui \
+    instructionwindow.ui \
+    aboutwindow.ui

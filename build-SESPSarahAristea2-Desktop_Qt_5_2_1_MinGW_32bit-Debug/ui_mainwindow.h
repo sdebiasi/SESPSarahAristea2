@@ -50,6 +50,7 @@ public:
         MainWindow->resize(800, 600);
         actionInstructions = new QAction(MainWindow);
         actionInstructions->setObjectName(QStringLiteral("actionInstructions"));
+        actionInstructions->setCheckable(true);
         actionAbout = new QAction(MainWindow);
         actionAbout->setObjectName(QStringLiteral("actionAbout"));
         centralWidget = new QWidget(MainWindow);

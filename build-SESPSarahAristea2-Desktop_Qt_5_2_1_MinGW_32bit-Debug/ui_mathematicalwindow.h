@@ -28,10 +28,13 @@ class Ui_MathematicalWindow
 public:
     QAction *actionEquation;
     QAction *actionPoint_s;
+    QAction *actionInstructions;
+    QAction *actionAbout;
     QWidget *centralwidget;
     QCustomPlot *widget;
     QMenuBar *menubar;
     QMenu *menuInsert;
+    QMenu *menuHow_to;
     QStatusBar *statusbar;
 
     void setupUi(QMainWindow *MathematicalWindow)
@@ -43,6 +46,10 @@ public:
         actionEquation->setObjectName(QStringLiteral("actionEquation"));
         actionPoint_s = new QAction(MathematicalWindow);
         actionPoint_s->setObjectName(QStringLiteral("actionPoint_s"));
+        actionInstructions = new QAction(MathematicalWindow);
+        actionInstructions->setObjectName(QStringLiteral("actionInstructions"));
+        actionAbout = new QAction(MathematicalWindow);
+        actionAbout->setObjectName(QStringLiteral("actionAbout"));
         centralwidget = new QWidget(MathematicalWindow);
         centralwidget->setObjectName(QStringLiteral("centralwidget"));
         widget = new QCustomPlot(centralwidget);
@@ -54,15 +61,21 @@ public:
         menubar->setGeometry(QRect(0, 0, 800, 21));
         menuInsert = new QMenu(menubar);
         menuInsert->setObjectName(QStringLiteral("menuInsert"));
+        menuHow_to = new QMenu(menubar);
+        menuHow_to->setObjectName(QStringLiteral("menuHow_to"));
         MathematicalWindow->setMenuBar(menubar);
         statusbar = new QStatusBar(MathematicalWindow);
         statusbar->setObjectName(QStringLiteral("statusbar"));
         MathematicalWindow->setStatusBar(statusbar);
 
         menubar->addAction(menuInsert->menuAction());
+        menubar->addAction(menuHow_to->menuAction());
         menuInsert->addAction(actionEquation);
         menuInsert->addSeparator();
         menuInsert->addAction(actionPoint_s);
+        menuHow_to->addAction(actionInstructions);
+        menuHow_to->addSeparator();
+        menuHow_to->addAction(actionAbout);
 
         retranslateUi(MathematicalWindow);
 
@@ -74,7 +87,10 @@ public:
         MathematicalWindow->setWindowTitle(QApplication::translate("MathematicalWindow", "MainWindow", 0));
         actionEquation->setText(QApplication::translate("MathematicalWindow", "Equation", 0));
         actionPoint_s->setText(QApplication::translate("MathematicalWindow", "Point/s", 0));
+        actionInstructions->setText(QApplication::translate("MathematicalWindow", "Instructions", 0));
+        actionAbout->setText(QApplication::translate("MathematicalWindow", "About...", 0));
         menuInsert->setTitle(QApplication::translate("MathematicalWindow", "Insert ", 0));
+        menuHow_to->setTitle(QApplication::translate("MathematicalWindow", "How to", 0));
     } // retranslateUi
 
 };
