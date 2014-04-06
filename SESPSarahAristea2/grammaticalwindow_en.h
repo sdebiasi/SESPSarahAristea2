@@ -15,6 +15,10 @@ public:
     explicit GrammaticalWindow_en(QWidget *parent = 0);
     ~GrammaticalWindow_en();
 
+public slots:
+    void openInstructionEN();
+    void openAboutEN();
+
 private:
     Ui::GrammaticalWindow_en *ui;
 };

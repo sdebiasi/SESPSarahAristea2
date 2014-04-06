@@ -30,6 +30,7 @@ private:
     MathematicalWindow *w;
     GrammaticalWindow_it *gwi;
     GrammaticalWindow_en *gwe;
+
 };
 
 #endif // MAINWINDOW_H

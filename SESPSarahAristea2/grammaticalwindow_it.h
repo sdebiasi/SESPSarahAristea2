@@ -15,6 +15,10 @@ public:
     explicit GrammaticalWindow_it(QWidget *parent = 0);
     ~GrammaticalWindow_it();
 
+public slots:
+    void openInstructionIT();
+    void openAboutIT();
+
 private:
     Ui::GrammaticalWindow_it *ui;
 };
