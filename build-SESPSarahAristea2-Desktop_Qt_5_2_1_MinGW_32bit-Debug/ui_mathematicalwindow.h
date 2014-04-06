@@ -54,7 +54,7 @@ public:
         centralwidget->setObjectName(QStringLiteral("centralwidget"));
         widget = new QCustomPlot(centralwidget);
         widget->setObjectName(QStringLiteral("widget"));
-        widget->setGeometry(QRect(30, 30, 451, 291));
+        widget->setGeometry(QRect(30, 30, 691, 421));
         MathematicalWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MathematicalWindow);
         menubar->setObjectName(QStringLiteral("menubar"));

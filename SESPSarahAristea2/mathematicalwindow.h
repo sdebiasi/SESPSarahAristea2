@@ -15,8 +15,11 @@ public:
     explicit MathematicalWindow(QWidget *parent = 0);
     ~MathematicalWindow();
 
+
 private:
     Ui::MathematicalWindow *ui;
+
+
 };
 
 #endif // MATHEMATICALWINDOW_H

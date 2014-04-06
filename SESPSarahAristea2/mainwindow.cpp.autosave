@@ -48,9 +48,10 @@ void MainWindow::changeWindow()
 void MainWindow::openAbout()
 {
     QMessageBox::information(this,"About", "Hello young users!\nThis application is build by Sarah & Aristea, two"
-                             " computer sciencie students. This application is build on the purpose of an university"
+                             " computer science students. This application is build on purpose of an university"
                              " course project, called Software Enginnering & Software Project.\nThe aim of this application"
-                             " is to give a hand to middle-school students.");
+                             " is to give a hand to middle-school students. Hopefully, they will study some exercises and"
+                             " control the results of some other results and build their own ");
 }
 
 

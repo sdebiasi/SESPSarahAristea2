@@ -7,8 +7,8 @@ MathematicalWindow::MathematicalWindow(QWidget *parent) :
 {
     ui->setupUi(this);
 
-
 }
+
 
 MathematicalWindow::~MathematicalWindow()
 {

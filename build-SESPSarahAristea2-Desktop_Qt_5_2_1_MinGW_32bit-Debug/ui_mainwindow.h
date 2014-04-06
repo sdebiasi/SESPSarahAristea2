@@ -101,7 +101,7 @@ public:
 
     void retranslateUi(QMainWindow *MainWindow)
     {
-        MainWindow->setWindowTitle(QApplication::translate("MainWindow", "MainWindow", 0));
+        MainWindow->setWindowTitle(QApplication::translate("MainWindow", "Fun Learning", 0));
         actionInstructions->setText(QApplication::translate("MainWindow", "Instructions", 0));
         actionAbout->setText(QApplication::translate("MainWindow", "About", 0));
         label->setText(QApplication::translate("MainWindow", "Name of the application", 0));
