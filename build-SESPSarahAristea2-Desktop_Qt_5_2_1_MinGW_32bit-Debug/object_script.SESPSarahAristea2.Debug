@@ -5,11 +5,10 @@ INPUT(
 ./debug\grammaticalwindow_it.o
 ./debug\grammaticalwindow_en.o
 ./debug\qcustomplot.o
-./debug\insertequation.o
+./debug\equationparser.o
 ./debug\moc_mainwindow.o
 ./debug\moc_mathematicalwindow.o
 ./debug\moc_grammaticalwindow_it.o
 ./debug\moc_grammaticalwindow_en.o
 ./debug\moc_qcustomplot.o
-./debug\moc_insertequation.o
 );

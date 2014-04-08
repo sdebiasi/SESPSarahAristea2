@@ -17,7 +17,7 @@
    <widget class="QCustomPlot" name="widget" native="true">
     <property name="geometry">
      <rect>
-      <x>30</x>
+      <x>10</x>
       <y>30</y>
       <width>691</width>
       <height>421</height>

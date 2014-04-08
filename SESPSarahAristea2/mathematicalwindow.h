@@ -1,6 +1,5 @@
 #ifndef MATHEMATICALWINDOW_H
 #define MATHEMATICALWINDOW_H
-#include "insertequation.h"
 
 #include <QMainWindow>
 
@@ -19,13 +18,12 @@ public:
 public slots:
     void openAboutMath();
     void openInstructionsMath();
-    void inputEquation();
+    void setText();
     void insertPoints();
 
 
 private:
     Ui::MathematicalWindow *ui;
-    InsertEquation *ie;
 
 
 };

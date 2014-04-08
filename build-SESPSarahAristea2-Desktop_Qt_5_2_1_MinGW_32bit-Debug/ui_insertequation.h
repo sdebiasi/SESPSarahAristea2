@@ -14,12 +14,10 @@
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QButtonGroup>
 #include <QtWidgets/QDialog>
-#include <QtWidgets/QHBoxLayout>
 #include <QtWidgets/QHeaderView>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
 #include <QtWidgets/QPushButton>
-#include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
 
@@ -28,8 +26,6 @@ class Ui_InsertEquation
 public:
     QLabel *label;
     QLineEdit *lineEdit;
-    QWidget *widget;
-    QHBoxLayout *horizontalLayout;
     QPushButton *pushButton;
     QPushButton *pushButton_2;
 
@@ -47,24 +43,14 @@ public:
         lineEdit = new QLineEdit(InsertEquation);
         lineEdit->setObjectName(QStringLiteral("lineEdit"));
         lineEdit->setGeometry(QRect(20, 50, 331, 20));
-        widget = new QWidget(InsertEquation);
-        widget->setObjectName(QStringLiteral("widget"));
-        widget->setGeometry(QRect(190, 100, 158, 26));
-        horizontalLayout = new QHBoxLayout(widget);
-        horizontalLayout->setObjectName(QStringLiteral("horizontalLayout"));
-        horizontalLayout->setContentsMargins(0, 0, 0, 0);
-        pushButton = new QPushButton(widget);
+        pushButton = new QPushButton(InsertEquation);
         pushButton->setObjectName(QStringLiteral("pushButton"));
+        pushButton->setGeometry(QRect(191, 101, 75, 24));
         pushButton->setFont(font);
-
-        horizontalLayout->addWidget(pushButton);
-
-        pushButton_2 = new QPushButton(widget);
+        pushButton_2 = new QPushButton(InsertEquation);
         pushButton_2->setObjectName(QStringLiteral("pushButton_2"));
+        pushButton_2->setGeometry(QRect(272, 101, 75, 24));
         pushButton_2->setFont(font);
-
-        horizontalLayout->addWidget(pushButton_2);
-
 
         retranslateUi(InsertEquation);
 

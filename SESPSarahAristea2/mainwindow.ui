@@ -10,16 +10,19 @@
     <height>600</height>
    </rect>
   </property>
+  <property name="acceptDrops">
+   <bool>true</bool>
+  </property>
   <property name="windowTitle">
-   <string>Fun Learning</string>
+   <string>Grammath</string>
   </property>
   <widget class="QWidget" name="centralWidget">
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>240</x>
-      <y>70</y>
-      <width>401</width>
+      <x>230</x>
+      <y>20</y>
+      <width>281</width>
       <height>41</height>
      </rect>
     </property>
@@ -35,15 +38,15 @@
      <bool>true</bool>
     </property>
     <property name="text">
-     <string>FUN LEARNING</string>
+     <string>GRAMMATH</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>60</x>
-      <y>130</y>
-      <width>701</width>
+      <x>80</x>
+      <y>470</y>
+      <width>521</width>
       <height>51</height>
      </rect>
     </property>
@@ -51,18 +54,20 @@
      <font>
       <family>Calibri</family>
       <pointsize>22</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
      </font>
     </property>
     <property name="text">
-     <string>We give you a hand to learn and exercise, having fun too!</string>
+     <string>A SCHOOL AID THOUGHT JUST FOR YOU!</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>80</x>
-      <y>320</y>
-      <width>181</width>
+      <x>132</x>
+      <y>302</y>
+      <width>153</width>
       <height>41</height>
      </rect>
     </property>
@@ -70,11 +75,66 @@
      <font>
       <family>Calibri</family>
       <pointsize>20</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+      <strikeout>false</strikeout>
+      <kerning>true</kerning>
      </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
     </property>
     <property name="text">
      <string>Mathematics</string>
     </property>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>360</y>
+      <width>168</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QRadioButton" name="radioButton">
+       <property name="font">
+        <font>
+         <family>Calibri</family>
+         <pointsize>15</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Italian</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="radioButton_2">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="font">
+        <font>
+         <family>Calibri</family>
+         <pointsize>15</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>English</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
    </widget>
    <widget class="QPushButton" name="pushButton_2">
     <property name="enabled">
@@ -82,9 +142,9 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>530</x>
-      <y>320</y>
-      <width>161</width>
+      <x>390</x>
+      <y>300</y>
+      <width>171</width>
       <height>41</height>
      </rect>
     </property>
@@ -92,53 +152,21 @@
      <font>
       <family>Calibri</family>
       <pointsize>20</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
      </font>
     </property>
     <property name="text">
      <string>Grammatics</string>
     </property>
    </widget>
-   <widget class="QRadioButton" name="radioButton">
-    <property name="geometry">
-     <rect>
-      <x>510</x>
-      <y>390</y>
-      <width>81</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Calibri</family>
-      <pointsize>15</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>Italian</string>
-    </property>
-   </widget>
-   <widget class="QRadioButton" name="radioButton_2">
-    <property name="enabled">
-     <bool>true</bool>
-    </property>
-    <property name="geometry">
-     <rect>
-      <x>640</x>
-      <y>390</y>
-      <width>81</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Calibri</family>
-      <pointsize>15</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>English</string>
-    </property>
-   </widget>
+   <zorder>label</zorder>
+   <zorder>label_2</zorder>
+   <zorder>pushButton</zorder>
+   <zorder>pushButton_2</zorder>
+   <zorder>radioButton</zorder>
+   <zorder>radioButton_2</zorder>
+   <zorder>pushButton_2</zorder>
   </widget>
   <widget class="QToolBar" name="mainToolBar">
    <attribute name="toolBarArea">

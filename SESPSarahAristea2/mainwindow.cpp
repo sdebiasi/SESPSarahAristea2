@@ -3,7 +3,7 @@
 #include "mathematicalwindow.h"
 #include "grammaticalwindow_it.h"
 #include "grammaticalwindow_en.h"
-#include "QMessageBox"
+#include <QMessageBox>
 
 //MAIN WINDOW WHICH CONTAINS THE OPENING WINDOW AND LET THE USER CHOOSE THE NEXT ACTIVITY TO DO
 
@@ -12,7 +12,7 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-
+    //this->setStyleSheet("background-image: url(C:/Users/Sony/Documents/GitHub/SESPSarahAristea2/SESPSarahAristea2/bbbb)");
     connect( this->ui->pushButton_2, SIGNAL(clicked()), this, SLOT(changeWindow()));
     connect(this->ui->actionAbout, SIGNAL (triggered()), this, SLOT(openAbout()));
     connect(this->ui->actionInstructions, SIGNAL(triggered()), this, SLOT(openInstructions()));
@@ -21,6 +21,7 @@ MainWindow::MainWindow(QWidget *parent) :
 //Open an isntruction window, giving some information on how to use the application
 void MainWindow::openInstructions()
 {
+
     QMessageBox::information(this, "Instructions", "Hello young user!\nHere you can find some information on how to"
                              " use this interesting and educational application.\nFirstly choose the field you want to"
                              " learn about, Mathematics or Grammatics(English/Italian).\nThen the corresponding window"
